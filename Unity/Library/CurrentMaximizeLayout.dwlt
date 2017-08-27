@@ -20,10 +20,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 509, y: 492}
-  m_MaxSize: {x: 14004, y: 14042}
+  m_MinSize: {x: 507, y: 471}
+  m_MaxSize: {x: 14002, y: 14021}
   vertical: 0
-  controlID: 743
+  controlID: 118
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -120,10 +120,10 @@ MonoBehaviour:
     y: 0
     width: 1618
     height: 947
-  m_MinSize: {x: 232, y: 492}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 230, y: 471}
+  m_MaxSize: {x: 10000, y: 14021}
   vertical: 1
-  controlID: 744
+  controlID: 94
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -178,14 +178,14 @@ MonoBehaviour:
     width: 1616
     height: 626
   m_SceneLighting: 1
-  lastFramingTime: 291.92002018718847
+  lastFramingTime: 39.663119669030785
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: -5.9136596, y: -0.47802162, z: -10.149178}
+    m_Target: {x: 20.088642, y: 1.1982967, z: -4.935667}
     speed: 2
-    m_Value: {x: -5.9136596, y: -0.47802162, z: -10.149178}
+    m_Value: {x: 20.088642, y: 1.1982967, z: -4.935667}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -208,13 +208,13 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.042501055, y: -0.93821204, z: 0.124567226, w: 0.32009014}
+    m_Target: {x: -0.267312, y: -0.2828959, z: 0.08239765, w: -0.91747856}
     speed: 2
-    m_Value: {x: 0.042500567, y: -0.9382013, z: 0.1245658, w: 0.32008648}
+    m_Value: {x: -0.2673064, y: -0.28288996, z: 0.08239592, w: -0.9174593}
   m_Size:
-    m_Target: 22.75264
+    m_Target: 31.647043
     speed: 2
-    m_Value: 22.75264
+    m_Value: 31.647043
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -269,8 +269,8 @@ MonoBehaviour:
     y: 647
     width: 1618
     height: 300
-  m_MinSize: {x: 232, y: 271}
-  m_MaxSize: {x: 10002, y: 10021}
+  m_MinSize: {x: 230, y: 250}
+  m_MaxSize: {x: 10000, y: 10000}
   m_ActualView: {fileID: 8}
   m_Panes:
   - {fileID: 8}
@@ -314,19 +314,19 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/sky5X
+    - Assets/Objects
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/sky5X
+  - Assets/Objects
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Desktop\Documents\Alexandre\Unity\Trabalho de portugues\MuseuArteModerna\Unity
   m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 78}
-    m_SelectedIDs: 78250000
-    m_LastClickedID: 9592
-    m_ExpandedIDs: 00000000b62400005a2500007825000086250000e825000000ca9a3bffffff7f
+    m_SelectedIDs: 5a250000
+    m_LastClickedID: 9562
+    m_ExpandedIDs: 00000000b62400005a25000078250000862500000028000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -354,7 +354,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b62400005a2500007825000086250000e825000000ca9a3bffffff7f
+    m_ExpandedIDs: 00000000b62400005a250000782500008625000000280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -379,9 +379,9 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 4ac7ffff
-    m_LastClickedInstanceID: -14518
-    m_HadKeyboardFocusLastEvent: 0
+    m_SelectedInstanceIDs: d8baffff
+    m_LastClickedInstanceID: -17704
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000fe280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -458,7 +458,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 292}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 616
+  controlID: 119
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -511,10 +511,10 @@ MonoBehaviour:
     width: 300
     height: 295
   m_TreeViewState:
-    scrollPos: {x: 0, y: 1338}
-    m_SelectedIDs: 4ac7ffff
-    m_LastClickedID: -14518
-    m_ExpandedIDs: 04c8ffffe4fbffff00000000
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: d8baffff
+    m_LastClickedID: -17704
+    m_ExpandedIDs: d8baffff10c4ffff9ecaffffe4fbffff0000000074280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -555,8 +555,8 @@ MonoBehaviour:
     y: 316
     width: 302
     height: 631
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
