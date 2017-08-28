@@ -91,10 +91,10 @@ public class UVEditor : EditorWindow {
 			if (currentSelectionMeshFilter == null) {
 				GUI.enabled = false;	
 				GUILayout.Label("No meshFilter found!");
-			} else if (currentSelection.renderer == null) {
+			} else if (currentSelection.GetComponent<Renderer>() == null) {
 				GUI.enabled = false;
 				GUILayout.Label("No renderer");
-			}else if (currentSelection.renderer.sharedMaterial == null) {
+			}else if (currentSelection.GetComponent<Renderer>().sharedMaterial == null) {
 				GUI.enabled = false;
 				GUILayout.Label("No material");
 			} 
@@ -167,8 +167,8 @@ public class UVEditor : EditorWindow {
 				if (currentSelectionMeshFilter != null) {
 					selectionUVData = currentSelectionMeshFilter.sharedMesh.uv;
 					Reset();
-					if (currentSelection.renderer.sharedMaterial.mainTexture != null)
-						selectionTexture =(Texture2D) currentSelection.renderer.sharedMaterial.mainTexture;
+					if (currentSelection.GetComponent<Renderer>().sharedMaterial.mainTexture != null)
+						selectionTexture =(Texture2D) currentSelection.GetComponent<Renderer>().sharedMaterial.mainTexture;
 				}
 				oldSelection = currentSelection;
 			}
@@ -206,7 +206,7 @@ public class UVEditor : EditorWindow {
 		newMesh.tangents = currentSelectionMesh.tangents;
 		newMesh.normals = currentSelectionMesh.normals;
 		newMesh.uv = currentSelectionMesh.uv;
-		newMesh.uv1 = currentSelectionMesh.uv1;
+		newMesh.uv2 = currentSelectionMesh.uv2;
 		newMesh.uv2 = currentSelectionMesh.uv2;
 		
 		newMesh.RecalculateBounds();
