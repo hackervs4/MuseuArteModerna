@@ -109,7 +109,7 @@ MonoBehaviour:
   m_MinSize: {x: 683, y: 492}
   m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 186
+  controlID: 9054
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -133,7 +133,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 187
+  controlID: 9055
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -157,7 +157,7 @@ MonoBehaviour:
   m_MinSize: {x: 406, y: 221}
   m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 188
+  controlID: 9056
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -258,7 +258,7 @@ MonoBehaviour:
   m_MinSize: {x: 277, y: 292}
   m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 252
+  controlID: 9111
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -276,7 +276,7 @@ MonoBehaviour:
     x: 0
     y: 0
     width: 302
-    height: 574
+    height: 813
   m_MinSize: {x: 202, y: 224}
   m_MaxSize: {x: 4002, y: 4024}
   m_ActualView: {fileID: 19}
@@ -299,9 +299,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 574
+    y: 813
     width: 302
-    height: 373
+    height: 134
   m_MinSize: {x: 277, y: 71}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 20}
@@ -412,14 +412,14 @@ MonoBehaviour:
     width: 730
     height: 626
   m_SceneLighting: 1
-  lastFramingTime: 3424.0327360609963
+  lastFramingTime: 2421.722282934092
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 5.0126953, y: 2.7783203, z: 0.52246094}
+    m_Target: {x: 11.704102, y: 5.446472, z: 0.71191406}
     speed: 2
-    m_Value: {x: 5.0126953, y: 2.7783203, z: 0.52246094}
+    m_Value: {x: 11.704102, y: 5.446472, z: 0.71191406}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -434,21 +434,21 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
     yGrid:
-      m_Target: 0
+      m_Target: 1
       speed: 2
-      m_Value: 0
+      m_Value: 1
     zGrid:
       m_Target: 0
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: -0.043478776, y: -0.84058857, z: 0.06823699, w: -0.5356001}
+    m_Target: {x: 0.08321235, y: 0.66701037, z: -0.0753569, w: 0.7365429}
     speed: 2
-    m_Value: {x: 0.043478776, y: 0.84058857, z: -0.06823699, w: 0.5356001}
+    m_Value: {x: 0.0832123, y: 0.66700995, z: -0.075356856, w: 0.73654246}
   m_Size:
-    m_Target: 7.2392864
+    m_Target: 9.807532
     speed: 2
-    m_Value: 7.2392864
+    m_Value: 9.807532
   m_Ortho:
     m_Target: 1
     speed: 2
@@ -522,18 +522,18 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Textures/Madeira
+    - Assets/Objects
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Textures/Madeira
+  - Assets/Objects
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\Desktop\Documents\Alexandre\Unity\Trabalho de portugues\MuseuArteModerna\Unity
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 186}
-    m_SelectedIDs: 84280000
-    m_LastClickedID: 10372
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 84250000
+    m_LastClickedID: 9604
     m_ExpandedIDs: 00000000b8240000e62400008425000094250000a8250000b2250000d82500000a2800008a2800009628000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -589,7 +589,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c6230000fe280000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -668,12 +668,12 @@ MonoBehaviour:
     x: 1620
     y: 92
     width: 300
-    height: 553
+    height: 792
   m_TreeViewState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 
-    m_LastClickedID: 0
-    m_ExpandedIDs: e4fbffff00000000
+    scrollPos: {x: 0, y: 169}
+    m_SelectedIDs: 06290000
+    m_LastClickedID: 10502
+    m_ExpandedIDs: 78fbffffe4fbffff0000000016290000e62a0000f62a00009a2c0000d62d0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -719,9 +719,9 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 1620
-    y: 666
+    y: 905
     width: 300
-    height: 352
+    height: 113
   m_ScrollPosition: {x: 0, y: 0}
   m_InspectorMode: 0
   m_PreviewResizer:
